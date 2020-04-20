@@ -6,183 +6,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Yesteryear&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+ <link rel= "stylesheet" type= "text/css" href= "static/css/style.css">
     <style>
-    body
+body
     {
-     background-image: url("static/background.jpg");
+     background-image: url("static/images/background.jpg");
 
     }
-     #textInput {
-        order: none;
-        border-bottom: 3px solid aqua;
-                }
-      .userText {
-        color: white;
-        font-family: monospace;
-        font-size: 17px;
-        text-align: right;
-        line-height: 30px;
-                }
-       .userText span {
-        background-color: #009688;
-        padding: 10px;
-        border-radius: 5px;
-                    }
-.botText {
-    color: white;
-    font-family: monospace;
-    font-size: 17px;
-    text-align: left;
-    line-height: 30px;
-}
-
-.botText span {
-    background-color: #EF5350;
-    padding: 10px;
-    border-radius: 2px;
- }
-
-.chatbot
-{
-  width:700px;
-}
-
-.time {
-font-size:10px;
-margin-top:-15px;
-margin-left: 650px;
-}
-.time-bot
-{
-font-size:10px;
-margin-top:-15px;
-margin-left: 5px;
-
-}
-
-
-.container
-{
-margin-left:0px;
-}
-.lds-ellipsis {
-  display: inline-block;
-  position: relative;
-  width: 80px;
-  height: 80px;
-}
-.lds-ellipsis div {
-  position: absolute;
-  top: 33px;
-  width: 13px;
-  height: 13px;
-  border-radius: 50%;
-  background: black;
-  animation-timing-function: cubic-bezier(0, 1, 1, 0);
-}
-.lds-ellipsis div:nth-child(1) {
-  left: 8px;
-  animation: lds-ellipsis1 0.6s infinite;
-}
-.lds-ellipsis div:nth-child(2) {
-  left: 8px;
-  animation: lds-ellipsis2 0.6s infinite;
-}
-.lds-ellipsis div:nth-child(3) {
-  left: 32px;
-  animation: lds-ellipsis2 0.6s infinite;
-}
-.lds-ellipsis div:nth-child(4) {
-  left: 56px;
-  animation: lds-ellipsis3 0.6s infinite;
-}
-@keyframes lds-ellipsis1 {
-  0% {
-    transform: scale(0);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-@keyframes lds-ellipsis3 {
-  0% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(0);
-  }
-}
-@keyframes lds-ellipsis2 {
-  0% {
-    transform: translate(0, 0);
-  }
-  100% {
-    transform: translate(24px, 0);
-  }
-}
-.header
-{
-   margin-left:400px;
-   margin-bottom:50px;
-   margin-top:50px;
-   margin-right:420px;
-   font-family: 'Yesteryear', cursive;
-   font-size:50px;
-}
-h1:after
-{
-    content:' ';
-    display:block;
-    border:2px solid black;
-}
-
-<!--/* For mobile phones: */-->
-<!--@media only screen and (min-width:300px ) {-->
-<!--   .header{-->
-<!--        margin-left:180px;-->
-<!--        margin-right:160px;-->
-<!--        font-size:35px;-->
-<!--   }-->
-<!--   .chatbot-->
-<!--   {-->
-<!--        width: 100%;-->
-<!--   }-->
-<!--   .time {-->
-<!--margin-top:-15px;-->
-<!--margin-left: 360px;-->
-<!--}-->
-<!--.time-bot-->
-<!--{-->
-
-<!--margin-top:-15px;-->
-<!--margin-left: 5px;-->
-
-<!--}-->
-
-<!--@media only screen and (max-width: 800px) {-->
-<!--   .header{-->
-<!--        margin-left:20px;-->
-<!--        margin-right:50px;-->
-<!--        font-size:35px;-->
-<!--   }-->
-<!--   .chatbot-->
-<!--   {-->
-<!--        width: 800px;-->
-<!--   }-->
-<!--   .time {-->
-<!--margin-top:-15px;-->
-<!--margin-left: 645px;-->
-<!--}-->
-<!--.time-bot-->
-<!--{-->
-
-<!--margin-top:-15px;-->
-<!--margin-left: 5px;-->
-
-<!--}-->
-
-}
     </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -198,7 +28,7 @@ h1:after
         <div class="chatbot offset-sm-3">
             <div id="chatbox" class="border border-success">
 
-                <p class="botText"><span><img src="static/bot2.jpg" alt="Avatar" style="width:5%;">  Namaste! I am Sana, your travel buddy for Rajasthan</span></p>
+                <p class="botText"><span><img src="static/images/bot2.jpg" alt="Avatar" style="width:5%;">  Namaste! I am Sana, your travel buddy for Rajasthan</span></p>
             </div>
             <div id="userInput">
                 <input id="textInput" class="form-control" type="text" name="msg" placeholder="Type Your Message Here" >
@@ -218,7 +48,7 @@ console.log(
 var strTime = time.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true })
 
         let userText = $("#textInput").val();
-        let userHtml = '<p class="userText"><span>' + userText + '   <img src="static/user.jpg" alt="Avatar" style="width:5%;"><p class="time" ">'+strTime+'</p></span></p>';
+        let userHtml = '<p class="userText"><span>' + userText + '   <img src="static/images/user.jpg" alt="Avatar" style="width:5%;"><p class="time" ">'+strTime+'</p></span></p>';
         $("#textInput").val("");
         $("#chatbox").append(userHtml);
         document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
@@ -229,7 +59,7 @@ var strTime = time.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric',
          var loader ='<div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>'
         $("#chatbox").append(loader);
         $(".lds-ellipsis").delay(2000).hide(1);
-        setTimeout(function () { var botHtml = '<p class="botText" align="right"><span><img src="static/bot2.jpg" alt="Avatar" style="width:5%;">  You can plan by reffering this:</span><br><a  href='+data+' target="_blank">'+data+'</a><p class="time-bot" ">'+strTime+'</p></p>';
+        setTimeout(function () { var botHtml = '<p class="botText" align="right"><span><img src="static/images/bot2.jpg" alt="Avatar" style="width:5%;">  You can plan by reffering this:</span><br><a  href='+data+' target="_blank">'+data+'</a><p class="time-bot" ">'+strTime+'</p></p>';
         $("#chatbox").append(botHtml);}, 2500)
 
         }
@@ -256,7 +86,7 @@ var strTime = time.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric',
         $("#chatbox").append(loader);
         $(".lds-ellipsis").delay(2000).hide(1);
         setTimeout(function () {var data2 = data.slice(i+1,data.length);
-            var botHtml = '<a  href='+ data1+' target="_blank"><img id="my-link" src='+data1+' alt=" "></a><p class="botText" align="right"><span><img src="static/bot2.jpg" alt="Avatar" style="width:5%;">  '+data2+'<p class="time-bot" ">'+strTime+'</p></span></p>';
+            var botHtml = '<a  href='+ data1+' target="_blank"><img id="my-link" src='+data1+' alt=" "></a><p class="botText" align="right"><span><img src="static/images/bot2.jpg" alt="Avatar" style="width:5%;">  '+data2+'<p class="time-bot" ">'+strTime+'</p></span></p>';
             $("#chatbox").append(botHtml);}, 2500)
 
 

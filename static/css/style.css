@@ -1,19 +1,20 @@
-#textInput {
-    border: none;
-    border-bottom: 3px solid aqua;
-}
-.userText {
-    color: white;
-    font-family: monospace;
-    font-size: 17px;
-    text-align: right;
-    line-height: 30px;
-}
-.userText span {
-    background-color: #009688;
-    padding: 10px;
-    border-radius: 2px;
-}
+
+     #textInput {
+        order: none;
+        border-bottom: 3px solid aqua;
+                }
+      .userText {
+        color: white;
+        font-family: monospace;
+        font-size: 17px;
+        text-align: right;
+        line-height: 30px;
+                }
+       .userText span {
+        background-color: #009688;
+        padding: 10px;
+        border-radius: 5px;
+                    }
 .botText {
     color: white;
     font-family: monospace;
@@ -28,6 +29,143 @@
     border-radius: 2px;
  }
 
-body {
-  background-color: lightblue;
+.chatbot
+{
+  width:700px;
+}
+
+.time {
+font-size:10px;
+margin-top:-15px;
+margin-left: 650px;
+}
+.time-bot
+{
+font-size:10px;
+margin-top:-15px;
+margin-left: 5px;
+
+}
+
+
+.container
+{
+margin-left:0px;
+}
+.lds-ellipsis {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ellipsis div {
+  position: absolute;
+  top: 33px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: black;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.lds-ellipsis div:nth-child(1) {
+  left: 8px;
+  animation: lds-ellipsis1 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(2) {
+  left: 8px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(3) {
+  left: 32px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(4) {
+  left: 56px;
+  animation: lds-ellipsis3 0.6s infinite;
+}
+@keyframes lds-ellipsis1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes lds-ellipsis3 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes lds-ellipsis2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(24px, 0);
+  }
+}
+.header
+{
+   margin-left:400px;
+   margin-bottom:50px;
+   margin-top:50px;
+   margin-right:4800px;
+   font-family: 'Yesteryear', cursive;
+   font-size:50px;
+}
+h1:after
+{
+    content:' ';
+    display:block;
+    border:2px solid black;
+}
+
+<!--/* For mobile phones: */-->
+<!--@media only screen and (min-width:300px ) {-->
+<!--   .header{-->
+<!--        margin-left:180px;-->
+<!--        margin-right:160px;-->
+<!--        font-size:35px;-->
+<!--   }-->
+<!--   .chatbot-->
+<!--   {-->
+<!--        width: 100%;-->
+<!--   }-->
+<!--   .time {-->
+<!--margin-top:-15px;-->
+<!--margin-left: 360px;-->
+<!--}-->
+<!--.time-bot-->
+<!--{-->
+
+<!--margin-top:-15px;-->
+<!--margin-left: 5px;-->
+
+<!--}-->
+
+<!--@media only screen and (max-width: 800px) {-->
+<!--   .header{-->
+<!--        margin-left:20px;-->
+<!--        margin-right:50px;-->
+<!--        font-size:35px;-->
+<!--   }-->
+<!--   .chatbot-->
+<!--   {-->
+<!--        width: 800px;-->
+<!--   }-->
+<!--   .time {-->
+<!--margin-top:-15px;-->
+<!--margin-left: 645px;-->
+<!--}-->
+<!--.time-bot-->
+<!--{-->
+
+<!--margin-top:-15px;-->
+<!--margin-left: 5px;-->
+
+<!--}-->
+
 }

@@ -54,7 +54,7 @@ def get_bot_response():
     # user_data['user_data'] = userText
     # user_data['tag'] = tag
     # db.user_data.insert(user_data)
-    print(tag)
+
     bot_response = responses.query_handling(userText, tag)
 
 
