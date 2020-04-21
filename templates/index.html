@@ -223,7 +223,7 @@ var strTime = time.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric',
         document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
         $.get("/get", { msg: userText }).done(function(data) {
 
-        if(data.indexOf("http") == 0)
+        if(data.indexOf("http://") == 0)
         {
          var loader ='<div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>'
         $("#chatbox").append(loader);
