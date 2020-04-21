@@ -11,6 +11,27 @@ mehrangarh
 citypalace
 hawamahal
 ranthamborenationalpark
+Jaisalmer
+jaisalmer
+itinerary
+itinerary
+itinerary
+{
+    "_id": {
+        "$oid": "5e9bfc4b957d9045fcbf8ef0"
+    },
+    "name": "jaisalmer",
+    "type": "city",
+    "ratings": "4.4",
+    "travel_guide": "http://www.holidayiq.com/travel-guides/jaisalmer.pdf",
+    "city_statename": "rajhasthan",
+    "city_bestTime": ["November", "December", "February", "March"],
+    "city_reviews": "We planned one day trip to Jaisalmer from Jaipur. By air we landed at Damodara desert Camp . Mr. Prithvi took care of very well. We started for Jeep safari . It was a fantastic adventure with family . Take care of young one . Then they took us for sunset view in camel . We also did sliding in sand dunes . We came back to camp for authentic Rajasthani folk songs with dance . It's too good . Night stay was really cold . Had a memorable time in Jaisalmer",
+    "city_details": "Steeped in history and offering breath-taking visuals of citadels of yore, the desert city of Jaisalmer is a World Heritage Site. The city fort, which also houses a palace and many temples which are Jaisalmer tourist places, are located in the midst of the Thar Desert. The city is named after its founder Maharawal Jaisal Singh, who set up the magnificent fort in 1156 AD.The most prominent of all attractions is the Jaisalmer Fort that towers over its surrounding like a sentinel from a bygone era.Patwon-ki-Haveli, the Desert Cultural Centre and Museum, and camel riding in the Desert National Park are other Jaisalmer places to visit and experience",
+    "city_famous_for": ["Jaisalmer Fort", "Bada Bagh", "Patwon-Ki-Haveli", "Sam Sand Dunes ", "Gadisar Lake"],
+    "city_images": "https://c1.hiqcdn.com/customcdn/1300x512/destreviewimages/shareiq_384_1448079613.00813.JPG"
+}
+
 0
 jaipur
 city

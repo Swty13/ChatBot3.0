@@ -1,10 +1,11 @@
-import pymongo
-import Preprocessing.spell as sp
+# import pymongo
 import random
 from Preprocessing.named_entity import entity_recog
+from data import places
+from data import reach
 
-client = pymongo.MongoClient()
-db = client.traveldata
+# client = pymongo.MongoClient()
+# db = client.traveldata
 
 
 class Response_Functions:
@@ -13,8 +14,13 @@ class Response_Functions:
 
     def get_description(self, ids):
         try:
-            record = db.rajdata.find({"name": ids.lower()})[0]
-            print(record)
+            print(ids)
+            # record = pd.read_json("data.json")
+            record = places(ids)
+            # record = db.rajdata.find({"name": ids.lower()})[0]
+            # print(record)
+            if record == None:
+                return "No description available for this place."
         except:
             return "No description available for this place."
 
@@ -36,7 +42,8 @@ class Response_Functions:
     def get_nearby_places(self, ids):
         try:
 
-            record = db.rajdata.find({"name": ids.lower()})[0]
+            # record = db.rajdata.find({"name": ids.lower()})[0]
+            record = places(ids)
 
         except:
             return "Please provide a place in Rajasthan to know its details!!"
@@ -48,7 +55,7 @@ class Response_Functions:
             strn = res_list[0]
             for i in range(0, 5):
                 strn = strn + record['city_famous_for'][i] + ","
-            print(strn)
+            # print(strn)
 
         except:
             strn = "Sorry we could not get you. Can you be more specific."
@@ -57,8 +64,9 @@ class Response_Functions:
     def get_rating(self, ids):
 
         try:
-            record = db.rajdata.find({"name": ids.lower()})[0]
-            print(record)
+            # record = db.rajdata.find({"name": ids.lower()})[0]
+            record = places(ids)
+            # print(record)
         except:
             return "Please provide a place in Rajasthan to know its Rating!!"
         counter = (random.randint(0, 3))
@@ -73,8 +81,8 @@ class Response_Functions:
 
     def get_review(self, ids):
         try:
-            record = db.rajdata.find({"name": ids.lower()})[0]
-
+            # record = db.rajdata.find({"name": ids.lower()})[0]
+            record = places(ids)
         except:
             return "Please provide a place in Rajasthan to know its Review!!"
         try:
@@ -86,7 +94,10 @@ class Response_Functions:
 
     def get_plan(self, ids):
         try:
-            record = db.rajdata.find({"name": ids[0].lower()})[0]
+            # record = db.rajdata.find({"name": ids[0].lower()})[0]
+            record = places(ids[0])
+            if record == None:
+                return "Sorry we don't have these informations!!!"
         except:
             return "We are so Sorry! No plan itinerary available for this place."
 
@@ -96,47 +107,55 @@ class Response_Functions:
     def get_how_to_reach(self, ids):
 
         try:
-            record = db.reach.find({"city_name": ids[0].lower()})[0]
-            print(record)
+            # record = db.reach.find({"city_name": ids[0].lower()})[0]
+            # print(ids)
+            record = reach(ids[0])
+            # print(record)
+
+            if record == None:
+                return "Sorry we don't have information how to reach this place!!"
         except:
             return "Sorry we could not get you. Can you be more specific."
-        if len(ids) > 1:
-            if ids[1] == 'bus':
-                strn = record['By Bus']
-            elif ids[1] == 'train' :
-                strn = record['By Train']
-            elif ids[1] == 'flight' or ids[1] == 'plane':
-                strn = record['By Flight']
-            elif ids[1] == 'cab' or ids[1] == 'cab' == 'taxi':
-                strn = record['By Cab/Taxi']
+        try:
+            if len(ids) > 1:
+                if ids[1] == 'bus':
+                    strn = record['By Bus']
+                elif ids[1] == 'train' :
+                    strn = record['By Train']
+                elif ids[1] == 'flight' or ids[1] == 'plane':
+                    strn = record['By Flight']
+                elif ids[1] == 'cab' or ids[1] == 'cab' == 'taxi':
+                    strn = record['By Cab/Taxi']
+                else:
+                    strn = record['By Bus']
+                return strn
             else:
                 strn = record['By Bus']
-            return strn
-        else:
-            strn = record['By Bus']
-            return strn
-
+                return strn
+        except:
+            return "Please mention the mode of transport you wish to take!!"
     def best_time(self, ids):
-        records = []
+        # records = []
         try:
-            record = db.rajdata.find({'name': ids.lower()})
-            for i in record:
-                records.append(i)
-
+            # record = db.rajdata.find({'name': ids.lower()})
+            record = places(ids)
+            print(ids)
         except:
             return "Sorry we could not get you. Can you be more specific."
 
-        if records[0]["type"] == "city":
-            strn = "Best time to visit " + ids + " is " + " ".join(records[0]["city_bestTime"])
-        else:
-            strn = "Please specify city name!"
-
+        try:
+            if record['type'] == "city":
+                strn = "Best time to visit " + ids + " is " + " ".join(record['city_bestTime'])
+            else:
+                strn = "Please specify city name!"
+        except:
+            return "Please specify the city name!!!"
         return strn
 
     def get_greeting(self, tag):
         try:
             if tag == "greeting":
-                greeting_response = [ "How are you ?? I'm Sana",
+                greeting_response = [ "How are you ??",
                                       "How can i help you??", "How may i assit you??"]
 
                 return random.choice(greeting_response)
@@ -174,7 +193,7 @@ def query_handling(input, tag):
         return random.choice(response)
 
     if tag == 'info':
-        response = ["For more Information you can visit this site:https://www.holidayiq.com/"]
+        response = ["https://www.holidayiq.com/"]
         return random.choice(response)
 
     response = entity_recog(input)

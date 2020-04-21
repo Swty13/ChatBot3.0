@@ -5,8 +5,8 @@ nlp = spacy.load('en_core_web_sm')
 
 
 
-places=["Jaisalmer","Jaipur","Jodhpur","Bundi","Bikaner","Ajmer","Pushkar","Udaipur","Mount Abu","Sawai Madhopur","Bharatpur","Alwar          ","Pali           ","Chittorgarh    ",
-"Hanumangarh","Jhunjhunu","Jhalawar","Churu","Kota","Sikar","Rajasthan","Amber Fort","Hawa Mahal","ranthambore national park","city palace","mehrangarh fort"]
+places=["Jaisalmer","Jaipur","Jodhpur","Bundi","Bikaner","Ajmer","Pushkar","Udaipur","Mount Abu","Sawai Madhopur","Bharatpur","Alwar","Pali","Chittorgarh",
+"Hanumangarh","Jhunjhunu","Jhalawar","Churu","Kota","Sikar","Rajasthan","Amber Fort","Hawa Mahal","ranthambore national park","city palace","mehrangarh fort","Jaisalmer"]
 
 
 def entity_recog(query):
