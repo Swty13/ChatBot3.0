@@ -45,6 +45,7 @@
 
 .chatbot
 {
+  margin-left : 200px;
   width:700px;
 }
 
@@ -53,18 +54,13 @@ font-size:10px;
 margin-top:-15px;
 margin-left: 650px;
 }
+
 .time-bot
 {
 font-size:10px;
 margin-top:-15px;
 margin-left: 5px;
 
-}
-
-
-.container
-{
-margin-left:0px;
 }
 .lds-ellipsis {
   display: inline-block;
@@ -129,60 +125,100 @@ margin-left:0px;
    font-family: 'Yesteryear', cursive;
    font-size:50px;
 }
+
 h1:after
 {
     content:' ';
     display:block;
-
-
-  width   : 50%;
+    width   : 50%;
     border:2px solid black;
 }
 
-<!--/* For mobile phones: */-->
-<!--@media only screen and (min-width:300px ) {-->
-<!--   .header{-->
-<!--        margin-left:180px;-->
-<!--        margin-right:160px;-->
-<!--        font-size:35px;-->
-<!--   }-->
-<!--   .chatbot-->
-<!--   {-->
-<!--        width: 100%;-->
-<!--   }-->
-<!--   .time {-->
-<!--margin-top:-15px;-->
-<!--margin-left: 360px;-->
-<!--}-->
-<!--.time-bot-->
-<!--{-->
 
-<!--margin-top:-15px;-->
-<!--margin-left: 5px;-->
+@media only screen and (max-device-width: 480px) {
+   .header{
+        margin-left:70px;
+        font-size:40px;
+   }
+   h1:after
+{
+    content:' ';
+    display:block;
+    width   : 85%;
+    border:2px solid black;
+}
+.chatbot
+{
+margin-left:0px;
+  width:480px;
+}
+   .time {
+margin-top:-10px;
+margin-left: 430px;
+}
+.time-bot
+{
 
-<!--}-->
+margin-top:-10px;
+margin-left: 5px;
 
-<!--@media only screen and (max-width: 800px) {-->
-<!--   .header{-->
-<!--        margin-left:20px;-->
-<!--        margin-right:50px;-->
-<!--        font-size:35px;-->
-<!--   }-->
-<!--   .chatbot-->
-<!--   {-->
-<!--        width: 800px;-->
-<!--   }-->
-<!--   .time {-->
-<!--margin-top:-15px;-->
-<!--margin-left: 645px;-->
-<!--}-->
-<!--.time-bot-->
-<!--{-->
+}
+@media only screen  and (max-device-width: 420px) {
+   .header{
+        margin-left:60px;
+        font-size:30px;
+   }
+   h1:after
+{
+    content:' ';
+    display:block;
+    width   : 70%;
+    border:2px solid black;
+}
+.chatbot
+{
+  margin:5px;
+  width:400px;
+}
+   .time {
+margin-top:-10px;
+margin-left: 310px;
+}
+.time-bot
+{
 
-<!--margin-top:-15px;-->
-<!--margin-left: 5px;-->
+margin-top:-10px;
+margin-left: 5px;
 
-<!--}-->
+}
+@media only screen and (max-device-width: 360px) {
+   .header{
+        margin-left:40px;
+        font-size:30px;
+   }
+   h1:after
+{
+    content:' ';
+    display:block;
+    width   : 85%;
+    border:2px solid black;
+}
+.chatbot
+{
+  margin:5px;
+  width:334px;
+}
+   .time {
+margin-top:-10px;
+margin-left: 270px;
+}
+.time-bot
+{
+
+margin-top:-10px;
+margin-left: 5px;
+
+}
 
 }
     </style>
@@ -194,7 +230,7 @@ h1:after
      <h1 class="header" >Rajasthan Travel Chatbot</h1>
 <div class="container">
     <div class="row">
-        <div class="chatbot offset-sm-3">
+        <div class="chatbot ">
             <div id="chatbox" class="border border-success">
 
                 <p class="botText"><span><img src="static/images/bot2.jpg" alt="Avatar" style="width:5%;">  Namaste! I am Sana, your travel buddy for Rajasthan</span></p>
