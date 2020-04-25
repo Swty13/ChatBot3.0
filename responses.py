@@ -87,7 +87,10 @@ class Response_Functions:
             return "Please provide a place in Rajasthan to know its Review!!"
         try:
             strn = "Dear Traveller " + ids.title() + " Reviews are as follows,\n"
-            strn = strn + ">> " + str(record['city_reviews'])
+            if record['type'] == 'place':
+                strn = strn + ">> " + str(record['place_reviews'])
+                return strn
+            strn = strn + ">> " + str(record['place_reviews'])
         except:
             strn = "Sorry we could not get you. Can you be more specific."
         return strn
@@ -197,6 +200,7 @@ def query_handling(input, tag):
         return random.choice(response)
 
     response = entity_recog(input)
+    print(response)
     if not response:
         return random.choice(missed_response)
 

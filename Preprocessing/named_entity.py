@@ -6,7 +6,11 @@ nlp = spacy.load('en_core_web_sm')
 
 
 places=["Jaisalmer","Jaipur","Jodhpur","Bundi","Bikaner","Ajmer","Pushkar","Udaipur","Mount Abu","Sawai Madhopur","Bharatpur","Alwar","Pali","Chittorgarh",
-"Hanumangarh","Jhunjhunu","Jhalawar","Churu","Kota","Sikar","Rajasthan","Amber Fort","Hawa Mahal","ranthambore national park","city palace","mehrangarh fort","Jaisalmer"]
+"Hanumangarh","Jhunjhunu","Jhalawar","Churu","Kota","Sikar","Rajasthan","Amber Fort","Hawa Mahal","ranthambore national park","city palace","mehrangarh fort","Jaisalmer",
+        "Ana Sagar Lake","Dargah Sharif","Brahma Temple","Nasiyan Temple","Mehrangarh Museum","Jaswant Thada","Umaid Bhawan Palace",
+        "Umaid Bhawan Palace Museum","Junagarh Fort","Karni Mata Temple","Shri Laxminath Temple","Pichola Lake","Fateh Sagar",
+        "Saheliyon Ki Bari","Jaisalmer Fort","Bada Bagh","Patwon ki Haveli"
+        ]
 
 
 def entity_recog(query):

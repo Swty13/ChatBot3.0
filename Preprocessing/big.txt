@@ -31,6 +31,207 @@ itinerary
     "city_famous_for": ["Jaisalmer Fort", "Bada Bagh", "Patwon-Ki-Haveli", "Sam Sand Dunes ", "Gadisar Lake"],
     "city_images": "https://c1.hiqcdn.com/customcdn/1300x512/destreviewimages/shareiq_384_1448079613.00813.JPG"
 }
+{"_id":{"$oid":"5e9566de957d9045fcbf8eea"},
+"name":"anasagarlake",
+"type":"place",
+"ratings":"4.5",
+"travel_guide":"http://www.holidayiq.com/travel-guides/ajmer.pdf",
+"place_statename":"rajhasthan",
+"place_bestTime":["November","December","February","March"],
+"place_details":"Ana Sagar Lake has been named after Anaji Chauhan. It is an artificial lake built by Anaji Chauhan, the grandfather of Prithvi Raj Chauhan.The Daulat Bagh Gardens,located in the area of the lake  were built by Jehangir. A dam across the river Luni, the lake is surrounded by beautiful parks and marble pavilions. An island lies in the middle of the lake. To beautify the lake, additional constructions were made by the Mughal emperors.",
+"place_reviews":"Ana Sagar lake is situated in the heart of heritage city Ajmer. The beautiful lake is perfect place to spend your evening. The place is common for the locals and tourist. Usually attracts a huge crowed. One should must take a boat ride which takes you to island of Ana Sagar. Evening time gives you perfect sunset view. Average time to spend is one to two hours. The beautiful Aravali Ranges gives a panoramic view.",
+
+"place_images":"https://c1.hiqcdn.com/customcdn/1300x512/destreviewimages/1492682705_rotates_shareiq_260_1451917259.364459.jpg"
+},
+
+{"_id":{"$oid":"5e9566de957d9045fcbf8eea"},
+"name":"dargahSharif",
+"type":"place",
+"ratings":"4.6",
+"travel_guide":"http://www.holidayiq.com/travel-guides/ajmer.pdf",
+"place_statename":"rajhasthan",
+"place_bestTime":["November","December","February","March"], "place_details":"Dargah Sharif, venerated by both Hindus and Muslims is the tomb of Khwaja Muin-ud-din Chishti.Constructed in several stages, the gate with silver doors forms the entrance of the site. The actual tomb of the saint is enveloped by a silver railing and a marble screen. This has been made of marble and a gold plated dome.Located at the foot of a small and barren hill in Ajmer, the tomb was built by Humayun. Constructed with white marble, the tomb has 11 arches and a Persian inscription.", "place_reviews":"Its a great holy place. Where I feel blessed by Khwaja Garib Nawaz & gets fulfilled all my genuine wishes.There is no religion & cast. As per my opinion every one visited there gets fulfilled their wish. He is one of the greatest saint & I feel mere khwaja ke darbar me sabki jholi bhar jati hai.", "place_images":"https://c1.hiqcdn.com/customcdn/1300x512/destreviewimages/1514565016_rotates_irctc_12707020952017122928.jpg"
+},
+
+{"_id":{"$oid":"5e9566de957d9045fcbf8eea"},
+"name":"brahmatemple",
+"type":"place",
+"ratings":"4.4",
+"travel_guide":"http://www.holidayiq.com/travel-guides/ajmer.pdf",
+"place_statename":"rajhasthan",
+"place_bestTime":["November","December","February","March"],
+"place_details":"Brahma Temple lies nestled in the Pushkar valley. Situated beyond Naga Parbat and the Ana Sagar Lake, the site is considered extremely sacrosanct.Built with marble, the temple has been embellished with silver coins. The temple also contains a silver turtle on it’s floor. Located close to the sacred Pushkar Lake",
+"place_reviews":"If you are in Pushkar and haven't visited Lord Brahma Temple then your Journey is incomplete. The one and only temple of Lord Brahma located in Pushkar, Ajmer. Really good place, nice and calm. Security is there, Mobile and Cameras inside temple premises are not allowed. You can keep your shoes outside temple at the flower shops for free.Temple closes at 12 Pm and opens in the evening at 4 PM.",
+"place_images":"https://c1.hiqcdn.com/customcdn/1300x512/destreviewimages/Ajmer-4234_7.JPG"
+},
+
+{"_id":{"$oid":"5e9566de957d9045fcbf8eea"},
+"name":"nasiyantemple",
+"type":"place",
+"ratings":"4.2",
+"travel_guide":"http://www.holidayiq.com/travel-guides/ajmer.pdf",
+"place_statename":"rajhasthan",
+"place_bestTime":["November","December","February","March"],
+"place_details":"Nasiyan Temple, built in 1865 is located at Prithvi Raj Marg in Ajmer.It is also known as Lal Mandir (Red Temple).One part of the temple is the worship area comprising the idol of Lord Adinath, while the other forms a museum and includes a hall. Made of gold, the interior of the museum depicts the five stages (Panch Kalyanak) in the life of Lord Adinath.",
+"place_reviews":"This Jain temple was constructed in 1865 AD and is definitely a sanctum of quietude. Very peaceful and clean. The architecture is worth admiring. Just behind this temple is the Swarn Nagri Hall, housing gilt wooden representations of scenes from Jain mythology. The hall is richly painted and decorated. It has illustrative representations of the birth of Rishabhdev, the Tirthankar. Be prepared to climb steep flight of stairs to reach the highest floor!! , but very well worth the effort.",
+"place_images":"https://c1.hiqcdn.com/customcdn/1300x512/destreviewimages/1503901775_rotates_shareiq_260_1503892031.845211.JPG"
+},
+
+{"_id":{"$oid":"5e9566de957d9045fcbf8eea"},
+"name":"mehrangarhmuseum",
+"type":"place",
+"ratings":"4.3",
+"travel_guide":"http://www.holidayiq.com/travel-guides/jodhpur.pdf",
+"place_statename":"rajhasthan",
+"place_bestTime":["November","December","February","March"],
+"place_details":"Mehrangarh Museum was established with an aim to house the collections of Maharajah Gaj Singh II. In the museum are showcased miniature paintings, portraits, books and manuscripts, weapons, textiles and tents, elephant howdahs and palanquins, and various artistic objects in 14 display rooms. One of the most well-stocked museums in Rajasthan, the museum exhibits the heritage of the Rathore rulers with arms, costumes, paintings and decorated period rooms.",
+"place_reviews":"The museum is actually inside Mehrangarh fort. It's a museum with weapons, queens Doli, elephants seat etc. Architecture is too good and worth visiting.",
+"place_images":"https://c8.alamy.com/comp/EEYMEE/india-rajasthan-jodhpur-city-fort-mehrangarh-museum-EEYMEE.jpg"
+},
+
+{"_id":{"$oid":"5e9566de957d9045fcbf8eea"},
+"name":"jaswantthada",
+"type":"place",
+"ratings":"4.3",
+"travel_guide":"http://www.holidayiq.com/travel-guides/jodhpur.pdf",
+"place_statename":"rajhasthan",
+"place_bestTime":["November","December","February","March"],
+"place_details":"Jaswant Thada was built by Sardar Singh in 1899 in memory of Maharajah Jaswant Singh II. An architectural landmark, it is a white marble memorial. This 19th century royal cenotaph built in commemoration of Maharajah Jaswant Singh II, the 33rd Rathore ruler of Jodhpur, is made out of intricately carved sheets of marble.",
+"place_reviews":"This milky white marble memorial to maharaja jaswant singh second, sitting above a small lake 1km northeast of Mehrangarh, is an ary of whimsical domes.Its a welcome, peaceful spot after the hubbub of city, and the views across the fort and over the city is superb",
+"place_images":"https://lh3.googleusercontent.com/proxy/kbLi0ZW5B7a_AWITQzUEAZ9yy893hk3a9EmSv--sCLnOR1JpgoEVL3rSqYPHwZpf5acy6ez7XPRnvwU9nMJvwTbi8kZdHBqjXitOofyVVZkioOGQiW07AmCU9Zon5NI"
+},
+
+{"_id":{"$oid":"5e9566de957d9045fcbf8eea"},
+"name":"umaidbhawanpalacemuseum",
+"type":"place",
+"ratings":"4.1",
+"travel_guide":"http://www.holidayiq.com/travel-guides/jodhpur.pdf",
+"place_statename":"rajhasthan",
+"place_bestTime":["November","December","February","March"],
+"place_details":"Umaid Bhawan Palace Museum exhibits an exclusive range of items belonging to the Maharajah and the royal family. Located within the Umaid Bhawan Palace, the museum has items ranging from weapons, an array of stuffed leopards, antiques, crockery to various trophies. Exhibits also comprise a huge banner presented by Queen Victoria and a collection of clocks.",
+"place_reviews":"Um ed Bhawan palace museum shows the real living of royal family now and earlier. Watching vintage cars of year 1908 and above is a life time experience. Watching lifestyle of royal family and interiors of the palace soothes eyes and creates a dream of being a part of this family.",
+"place_images":"https://c1.hiqcdn.com/customcdn/1300x512/destreviewimages/1490095874_rotates_1485750805_rotates_shareiq_390_1485605520.88600.jpg"
+},
+
+{"_id":{"$oid":"5e9566de957d9045fcbf8eea"},
+"name":"umaidbhawanpalacemuseum",
+"type":"place",
+"ratings":"4.1",
+"travel_guide":"http://www.holidayiq.com/travel-guides/jodhpur.pdf",
+"place_statename":"rajhasthan",
+"place_bestTime":["November","December","February","March"],
+"place_details":"Umaid Bhawan Palace has 347 rooms and serves as the principal residence of the erstwhile Jodhpur royal family. One of the world's largest private residences, the palace has been named after Maharajah Umaid Singh, grandfather of the present owners of the palace. Taj Hotels manages a part of the palace. Called Chittar Palace during its construction, the palace was completed in 1943.The palace was constructed between 1929 and 1943. Situated on Chittar Hill, the highest point in Jodhpur, the palace is a blend of Indian and European architectural influences.",
+"place_reviews":"A must visit place in Jodhpur if you are there. Very attractive sculpture and the inside look. If you want to see original heritage you should be there. Always full of celebrities, there is a restaurant also for having some food.",
+"place_images":"https://i.pinimg.com/originals/5b/46/63/5b46638dc450fb50eda705635162b711.png"
+},
+
+{"_id":{"$oid":"5e9566de957d9045fcbf8eea"},
+"name":"junagarhfort",
+"type":"place",
+"ratings":"4.5",
+"travel_guide":"http://www.holidayiq.com/travel-guides/bikaner.pdf",
+"place_statename":"rajhasthan",
+"place_bestTime":["November","December","February","March"],
+"place_details":"Junagarh Fort is one of the famous testaments of Bikaner. that draws attention of tourists. The fort was constructed during the period of 1588 to 1593 by Raja Raj Singh, General of the Army of Mughal emperor, Akbar. Famous for it’s massive structure and architectural designs, the fort is spread over a sprawling area that is bounded by 986 metres long wall.",
+"place_reviews":"This most impressive fort was constructed between 1588 and 1593 by raja rai singh, ruler of Bikaner and a general in the army of the Maugham emperor Akbar. You enter through the KARAN POLE gate on the east side and pass through three more gates before the ticket office for the palace museum.You can also visit museum.",
+"place_images":"https://c1.hiqcdn.com/customcdn/1300x512/destreviewimages/1509354525_rotates_1509354524_rotates_shareiq_312_1509353895.355315.jpg"
+},
+
+{"_id":{"$oid":"5e9566de957d9045fcbf8eea"},
+"name":"karnimatatemple",
+"type":"place",
+"ratings":"4.1",
+"travel_guide":"http://www.holidayiq.com/travel-guides/bikaner.pdf",
+"place_statename":"rajhasthan",
+"place_bestTime":["November","December","February","March"],
+"place_details":"Karni Mata Temple at Deshnoke is a renowned centre for rat worship. The 600 years old temple is home to thousands of black, grey and white rats or Kaba. An image of Karni Mata, a manifestation of Goddess Durga, is depicted holding trident in her hand. It is believed the Goddess Durga lived at this place during 14th century and performed miracles.As per folklore, feeding rats at this temple brings good fortune. According to the belief of followers, the rats would reincarnate as holy men.",
+"place_reviews":"Rats and rats and rats but this time no one detested them, I readily felt at peace and its unique features. The Mandir is small but well kept when I reached in the evening time it was pretty isolated but it was good and safe",
+"place_images":"https://c1.hiqcdn.com/customcdn/1300x512/destreviewimages/1474286571_rotates_shareiq_312_1474281862.641622.jpg"
+},
+
+{"_id":{"$oid":"5e9566de957d9045fcbf8eea"},
+"name":"shrilaxminathtemple",
+"type":"place",
+"ratings":"4.1",
+"travel_guide":"http://www.holidayiq.com/travel-guides/bikaner.pdf",
+"place_statename":"rajhasthan",
+"place_bestTime":["November","December","February","March"],
+"place_details":"Shri Laxminath Temple is one of the oldest religious centres in the region that was established by Maharaja Rao Lunakaran in the period between 1504 and 1526. There are several shrines and figurines of the deities, which include Vishnu and Laxmi belonging to the medieval times.",
+"place_reviews":"The seplendid hindu temple, behind bhandasar temple, was built during the regin of rao lunkaran between 1505 and 1526. Laksminath was the patron god of the rulers of Bikaner, and during major religious festivals a royal procession headed by the maharaja pays homage here.Photography prohibited here.",
+"place_images":"https://www.tourmyindia.com/images/shri-laxminath1.jpg"
+},
+
+{"_id":{"$oid":"5e9566de957d9045fcbf8eea"},
+"name":"picholalake",
+"type":"place",
+"ratings":"4.4",
+"travel_guide":"http://www.holidayiq.com/travel-guides/udaipur.pdf",
+"place_statename":"rajhasthan",
+"place_bestTime":["November","December","February","March"],
+"place_details":"Pichola Lake is an artificial fresh water lake that has been named after the nearby Picholi Village. Created in the year 1362 AD, it is one of the several contiguous lakes, developed over the last few centuries in and around Udaipur city.Impressed by the beauty of the lake with the backdrop of green hills, Maharana Udai Singh founded the city of Udaipur on its banks. With the construction of a stone masonry dam in the Badipol region located on its shore, he also enlarged the lake.",
+"place_reviews":"WOW what a place to visit. The winter time is the best time as the breeze is cool and the view is spectacular. Enjoyed eating bhutta AND HOT MAGGI . Loved the whole experience.",
+"place_images":"https://www.tourmyindia.com/images/pichola-lake3.jpg"
+},
+
+{"_id":{"$oid":"5e9566de957d9045fcbf8eea"},
+"name":"fatehsagar",
+"type":"place",
+"ratings":"4.4",
+"travel_guide":"http://www.holidayiq.com/travel-guides/udaipur.pdf",
+"place_statename":"rajhasthan",
+"place_bestTime":["November","December","February","March"],
+"place_details":"Fateh Sagar is an artificial lake that was constructed by Maharana Fateh Singh to the north of Pichola Lake in 1678. Situated to the north-west of Udaipur, the lake is considered to be the pride of this 'City of Lakes'.One of the four lakes of the city, its blue waters and the backdrop of green has given the nickname of ‘second Kashmir’ to the city. Three small islands are located within the confines of the lake.",
+"place_reviews":"Very beautiful Lake in Udaipur. We enjoy in boatng. We rate Street food. Sandvich and cold coffee. Lake is very big. Local people also enjoying hearNear to lake one Mata ji Mandir available. Neemach Mata mandir. We went there",
+"place_images":"https://www.tourmyindia.com/images/fateh-sagar-lake3.jpg"
+},
+
+{"_id":{"$oid":"5e9566de957d9045fcbf8eea"},
+"name":"saheliyonkibari ",
+"type":"place",
+"ratings":"3.95",
+"travel_guide":"http://www.holidayiq.com/travel-guides/udaipur.pdf",
+"place_statename":"rajhasthan",
+"place_bestTime":["November","December","February","March"],
+"place_details":"Saheliyon Ki Bari is famous for its lush green lawns, marble art and fountains. Located on the banks of Fateh Sagar Lake, the garden was built in the 18th century by Maharana Sangram Singh for the royal ladies.Apart from fountains in its four water pools, chiselled kiosks and marble elephants, the garden is also embellished with a lotus pool and bird-fountains. Green lawns, flowerbeds and marble pavilions are the highlights of the garden. Built by Maharana Bhopal Singh, a pavilion of rain fountains was made in order to form an illusion of rain dancing in cadence with dancing maids",
+"place_reviews":"This is well maintained as a historical park or garden. It has a number of fountains and lawns to click. Not really a huge place but worth a visit in the evening. A very calm and quite place to move around. Flower gardens are well taken care of.",
+"place_images":"https://www.tourmyindia.com/images/saheliryon-ki-bari-u1.jpg"
+},
+
+{"_id":{"$oid":"5e9566de957d9045fcbf8eea"},
+"name":"jaisalmerfort ",
+"type":"place",
+"ratings":"4.1",
+"travel_guide":"http://www.holidayiq.com/travel-guides/jaisalmer.pdf",
+"place_statename":"rajhasthan",
+"place_bestTime":["November","December","February","March"],
+"place_details":"The Jaisalmer Fort is located in the heart of the city and is known for its miniatures, architecture and bazaars. This fort was built in 1156 by a Bhati Rajput ruler Jaisal, atop the Trikura hill. About a quarter of the population of Jaisalmer live inside this fort.The fort is also called the Sonar Quila and is regarded as 'The Pride of Jaisalmer'. The 250 feet tall fort is protected by a 30 feet tall wall surrounding it on all sides.",
+"place_reviews":"This is an excellent fort. You will need at least 2 hours to go through all sections of the fort. Better to hire a local guide for this. Inside the fort, there is a small township, people live there. There are a lot of shops selling local merchandise. Better not to buy any items from the fort. You can try in the local bazaar.",
+"place_images":"https://www.tourmyindia.com/images/jaisalmer-fort-1.jpg"
+},
+
+{"_id":{"$oid":"5e9566de957d9045fcbf8eea"},
+"name":"badabagh",
+"type":"place",
+"ratings":"4.1",
+"travel_guide":"http://www.holidayiq.com/travel-guides/jaisalmer.pdf",
+"place_statename":"rajhasthan",
+"place_bestTime":["November","December","February","March"],
+"place_details":"Bada Bagh or Big Garden is located 6 km from Jaisalmer on the Ramgarh road. During the 16th century, this garden was commissioned by Maharawal Jait Singh and was completed by his son Lunakaran. This garden includes a tank and a dam, along with a Govardhan Stambh (pillar).",
+"place_reviews":"You can find the mausoleums of the royalty here. A calm and serene place. Good to spend a calm and peaceful time. Slightly away from the city. There is a small pond surrounding this place.",
+"place_images":"https://www.tourmyindia.com/images/bada-bagh1.jpg"
+},
+
+{"_id":{"$oid":"5e9566de957d9045fcbf8eea"},
+"name":"patwonkihaveli",
+"type":"place",
+"ratings":"4.1",
+"travel_guide":"http://www.holidayiq.com/travel-guides/jaisalmer.pdf",
+"place_statename":"rajhasthan",
+"place_bestTime":["November","December","February","March"],
+"place_details":"Patwon-ki-Haveli is situated in a narrow lane near the Patwa Complex. It is the first haveli to have been erected in Jaisalmer. This haveli is essentially a cluster of five havelis, which was constructed in 1805 by Guman Chand Patwa. A rich trader, Guman Chand Patwa constructed five separate storeys for his five sons",
+"place_reviews":"Full paisa vasool attraction, worth travelling for. Please take a guide as he can tell you all about the history of this haveli and all the rooms and items placed inside. It will tell you how lavishly our raja's use to live.",
+"place_images":"https://www.tourmyindia.com/images/patwaon-ki-haveli1.jpg"
+}
 
 0
 jaipur
