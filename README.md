@@ -35,12 +35,15 @@ Assistants are a middle ground between the above types of chatbots. They can res
 6.  JavaScript
 
 # Technologies Used in Travel ChatBot
-1.Scikit Learn
-2.Spacy
-3.NLTK
-4.Neural Networks
-5.Semantic Analysis
-6.Flask
-7.Pandas
+1.  Scikit Learn
+2.  Spacy
+3.  NLTK
+4.  Neural Networks
+5.  Semantic Analysis
+6.  Flask
+7.  Pandas
+
+
+
 
 
